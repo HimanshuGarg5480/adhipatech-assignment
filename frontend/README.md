@@ -43,3 +43,20 @@ node index.js
 
 
 # Frontend-ReactJS
+
+### install dependencies
+
+```shell
+cd .\frontend\
+npm install
+```
+### Start the app
+```shell
+npm run dev
+```
+### website screenshots
+![image](https://github.com/HimanshuGarg5480/adhipatech-assignment/assets/89679133/789ca325-ac1e-4852-8eb7-4230bc74aca1)
+![image](https://github.com/HimanshuGarg5480/adhipatech-assignment/assets/89679133/89226078-0fbc-48c0-8aae-9bd815d929b7)
+![image](https://github.com/HimanshuGarg5480/adhipatech-assignment/assets/89679133/eb7f7517-b29e-4c9f-9aac-bc36eb978957)
+![image](https://github.com/HimanshuGarg5480/adhipatech-assignment/assets/89679133/864df131-c65a-4394-b871-544956af5470)
+![image](https://github.com/HimanshuGarg5480/adhipatech-assignment/assets/89679133/806e7525-2112-4b08-9a80-9a9a01dd7e96)
