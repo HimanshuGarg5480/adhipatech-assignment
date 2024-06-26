@@ -1,6 +1,8 @@
 import React from "react";
 import Signup from "../components/Signup";
+import { useNavigate } from "react-router-dom";
 const SignupPage = () => {
+  const navigate=useNavigate();
   const handleSignup=async(name,email,password)=>{
     try {
       const response = await fetch('http://localhost:8000/api/auth/signup', {
@@ -17,6 +19,7 @@ const SignupPage = () => {
   
       const data = await response.json();
       console.log('User registered successfully:', data);
+      navigate('/')
     } catch (error) {
       console.error('Error registering user:', error);
     }
